@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # pertemuan_1_flutter
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# QuestSatu_0705
+Pengumpulan penugasan mata kuliah Pemrograman Aplikasi Mobile
+>>>>>>> b9bd1f928e0a8f8245b9fbcefcb01538d6c93966
