@@ -45,14 +45,21 @@ class HomePage extends StatelessWidget {
     Scaffold(
       body: 
       Column(
-        children: [
-          Image(image: AssetImage('assets/images/profil.png')),
-        Text('Nama: Miftahul Ulum', style: TextStyle(fontWeight: FontWeight.bold),),
-        Text('Kelas: Informatika B 2023'),
-        Text('NIM: 3012310705', style: TextStyle(color: Color.fromARGB(255, 255, 0, 0)),),
-        Text('Alamat: Jl Kartini XVI 42 C Sidomoro Kebomas Gresik'),
-        Text('Semester: 5', style: TextStyle(fontSize: 15),),
-      ],
+        mainAxisAlignment: MainAxisAlignment.center, 
+        crossAxisAlignment: CrossAxisAlignment.center,
+      children:[
+        SizedBox(height: 50,),
+        CircleAvatar(
+          radius: 100,
+          backgroundImage: AssetImage('assets/images/karakter.png'),
+        ),
+          // Image(image: AssetImage('assets/images/profil.png', ),),
+        Text('Nama: Miftahul Ulum', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,),
+        Text('Kelas: Informatika B 2023', textAlign: TextAlign.center,),
+        Text('NIM: 3012310705', textAlign: TextAlign.center, style: TextStyle(color: Color.fromARGB(255, 255, 0, 0)),),
+        Text('Alamat: Jl Kartini XVI 42 C Sidomoro Kebomas Gresik', textAlign: TextAlign.center,),
+        Text('Semester: 5', textAlign: TextAlign.center, style: TextStyle(fontSize: 15),),
+      ], 
     ),);
   }
 }
