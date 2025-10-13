@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 255, 230, 0)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 105, 255, 238)),
       ),
       home: const HomePage(),
     );
@@ -48,17 +48,13 @@ class HomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center, 
         crossAxisAlignment: CrossAxisAlignment.center,
       children:[
-        SizedBox(height: 50,),
-        CircleAvatar(
-          radius: 100,
-          backgroundImage: AssetImage('assets/images/karakter.png'),
-        ),
-          // Image(image: AssetImage('assets/images/profil.png', ),),
+        CircleAvatar(radius: 100, backgroundImage: AssetImage('assets/images/fotoprofile.png'),),
+        SizedBox(height: 20,),
         Text('Nama: Miftahul Ulum', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,),
         Text('Kelas: Informatika B 2023', textAlign: TextAlign.center,),
         Text('NIM: 3012310705', textAlign: TextAlign.center, style: TextStyle(color: Color.fromARGB(255, 255, 0, 0)),),
         Text('Alamat: Jl Kartini XVI 42 C Sidomoro Kebomas Gresik', textAlign: TextAlign.center,),
-        Text('Semester: 5', textAlign: TextAlign.center, style: TextStyle(fontSize: 15),),
+        Text('Semester: 5', textAlign: TextAlign.center, style: TextStyle(fontSize: 15 ),),
       ], 
     ),);
   }
